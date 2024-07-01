@@ -1,0 +1,12 @@
+Projeto Jogo número secreto
+Passos:
+	-Adicionar titulo usando javascript. ok
+	-Fazer a função de chute de números. ok
+	-Fazer a função de contar a quantidade de tentativas ok
+	-Quando for acertado o número secreto, a opção chutar deve ser desabilitada e a de novo jogo, habilitada. ok
+	-Fazer a função de novo jogo.
+		-Reiniciar as tentativas. ok 
+		-Gerar novamente os números. ok
+	-Fazer uma função que faça com que números não sejam repetidos na geração de valores.
+		-Esses valores devem ser esvaziados ao iniciar novo jogo.
+	
