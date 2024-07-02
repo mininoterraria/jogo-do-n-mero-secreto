@@ -29,9 +29,6 @@ function exibirTexto(tagHTML,texto){
     let seletor = document.querySelector(tagHTML);
     seletor.innerHTML = texto;
 }
-console.log(numeroSecreto);
-
-
 
 //Função de exibição do texto inicial do jogo.
 function textoInicial(){
@@ -71,7 +68,6 @@ function habilitarNovoJogo(){
 function novoJogo(){
     tentativas = 1;
     numeroSecreto = gerarNumeroAleatorio();
-    console.log(numerosSorteados);
     textoInicial();
     let botaoChutar = document.getElementById('botaoChutar');
     botaoChutar.removeAttribute("disabled",'true');
